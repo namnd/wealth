@@ -27,5 +27,6 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: path.join(__dirname, 'src', 'index.html')
         })
-    ]
+    ],
+    devtool: 'inline-source-map'
 }
