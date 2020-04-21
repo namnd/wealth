@@ -1,0 +1,14 @@
+name: code-coverage
+
+on: ["push"]
+
+jobs:
+  code-coverage:
+    runs-on: ubuntu-latest
+    name: code-coverage
+    steps:
+      - uses: actions/checkout@master
+      - name: Run code coverage
+        uses: codacy/codacy-coverage-reporter-action@master
+        with:
+          project-token: ${{ secrets.CODACY_PROJECT_TOKEN }}
