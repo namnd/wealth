@@ -1,0 +1,2 @@
+# wealth
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/75dce42d3127420abb5a1a3a4fd78997)](https://app.codacy.com/manual/namnd86/wealth?utm_source=github.com&utm_medium=referral&utm_content=namnd/wealth&utm_campaign=Badge_Grade_Settings)
