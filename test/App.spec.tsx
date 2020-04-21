@@ -1,12 +1,12 @@
-import React from "react"
-import { shallow } from "enzyme"
-import { shallowToJson } from "enzyme-to-json"
-import App from "../src/App"
+import React from 'react';
+import { shallow } from 'enzyme';
+import { shallowToJson } from 'enzyme-to-json';
+import App from '../src/App.tsx';
 
 describe('App', () => {
     it('should render correctly', () => {
-        const output = shallow(<App />)
+        const output = shallow(<App />);
 
-        expect(shallowToJson(output)).toMatchSnapshot()
+        expect(shallowToJson(output)).toMatchSnapshot();
     });
 });

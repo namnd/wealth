@@ -2,6 +2,7 @@ module.exports = {
     env: {
         browser: true,
         es6: true,
+        jest: true,
     },
     extends: [
         'plugin:react/recommended',
@@ -24,6 +25,7 @@ module.exports = {
         '@typescript-eslint',
     ],
     rules: {
-        'indent': ['error', 4]
+        'indent': ['error', 4],
+        "react/jsx-filename-extension": [0],
     },
 };
