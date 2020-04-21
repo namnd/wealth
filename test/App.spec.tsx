@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { shallowToJson } from 'enzyme-to-json';
-import App from '../src/App.tsx';
+import App from '../src/App';
 
 describe('App', () => {
     it('should render correctly', () => {
