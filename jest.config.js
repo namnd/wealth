@@ -9,6 +9,5 @@ module.exports = {
     collectCoverageFrom: [
         'src/**/*.{ts,tsx}',
     ],
-    coverageReporters: ['html', 'lcov'],
     coverageDirectory: '<rootDir>test/coverage',
 };

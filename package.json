@@ -6,6 +6,7 @@
     "start": "webpack-dev-server --hot",
     "build": "webpack --config webpack.config.js",
     "test": "jest",
+    "test:coverage": "jest --coverage",
     "test:watch": "npm run test -- --watch",
     "lint": "eslint \"**/*.[jt]s?(x)\""
   },
