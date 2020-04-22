@@ -6,6 +6,9 @@ jobs:
   buildAndTest:
     name: Build and Test
     runs-on: ubuntu-latest
+    env:
+      CODACY_PROJECT_TOKEN: ${{ secrets.CODACY_PROJECT_TOKEN }}
+
     steps:
     - uses: actions/checkout@v2
 
@@ -16,4 +19,7 @@ jobs:
       run: npm build
 
     - name: Test
-      run: npm run test
+      run: npm run test:coverage
+
+    - name: Check code coverage
+      run: bash <(curl -Ls https://coverage.codacy.com/get.sh) final
