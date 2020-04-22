@@ -8,6 +8,7 @@ module.exports = {
     collectCoverage: true,
     collectCoverageFrom: [
         'src/**/*.{ts,tsx}',
+        '!src/index.tsx',
     ],
     coverageDirectory: '<rootDir>test/coverage',
 };
