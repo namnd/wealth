@@ -21,10 +21,5 @@ jobs:
     - name: Test
       run: npm run test:coverage
 
-    - name: Codecov
-      uses: codecov/codecov-action@v1.0.6
-      with:
-        # Flag upload to group coverage metrics (e.g. unittests | integration | ui,chrome)
-        flags: unittests
-        # Specify whether or not CI build should fail if Codecov runs into an error during upload
-        fail_ci_if_error: true
+    - name: Code coverage
+      run: bash <(curl -s https://codecov.io/bash)
