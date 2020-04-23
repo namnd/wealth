@@ -2,6 +2,6 @@
 
 exports[`App should render correctly 1`] = `
 <h1>
-  Hello, Wealth
+  Hello, Wealth management app
 </h1>
 `;
