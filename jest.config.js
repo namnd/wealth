@@ -11,4 +11,5 @@ module.exports = {
         '!src/index.tsx',
     ],
     coverageDirectory: '<rootDir>test/coverage',
+    snapshotSerializers: ['enzyme-to-json/serializer'],
 };
