@@ -1,7 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`App should render correctly 1`] = `
-<h1>
-  Hello, Wealth management app
-</h1>
+<button
+  className="btn mr-2 mt-6"
+  type="button"
+>
+  Click here to start
+</button>
 `;
